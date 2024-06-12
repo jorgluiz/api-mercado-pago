@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <p>confirmar pagamento</p>
+    <img id="ticket__qrcode-canva--desktop" src="data:image/png;base64,{{qrCodeBase64}}" alt="QRCode" height="200px" width="200px">
+
+    <script>
+        // 1 Função para extrair parâmetros de consulta da URL
+        // function obterParametroConsulta(nomeParametro) {
+        //     const urlSearchParams = new URLSearchParams(window.location.search);
+        //     return urlSearchParams.get(nomeParametro);
+        // }
+    
+        // 2 Obter o ID do pagamento da URL
+        // const qr_code_base64 = obterParametroConsulta('qr_code_base64');
+        // const qrCodeImage = document.getElementById('ticket__qrcode-canva--desktop');
+        // qrCodeImage.src = `data:image/png;base64,${qr_code_base64}`
+    </script>
+</body>
+</html>
