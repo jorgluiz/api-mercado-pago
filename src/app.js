@@ -176,7 +176,6 @@ app.post('/process_payment/pix', (req, res) => {
 app.post('/process_payment/card', async (req, res) => {
   try {
     const body = req.body;
-    console.log(body)
 
     const paymentData = {
       transaction_amount: body.transaction_amount,
