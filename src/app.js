@@ -16,7 +16,7 @@ const idempotencyKey = uuidv4();
 // const { processPayment } = require('./public/mercadopagoAPI/processPayment')
 
 app.use(cors({
-  origin: 'https://mercadopago-vendas-44e916035beb.herokuapp.com/' // Substitua 'https://seu-domínio.com' pelo domínio do seu aplicativo
+  origin: 'https://api-mercado-pago-d2950133b65c.herokuapp.com/' // Substitua 'https://seu-domínio.com' pelo domínio do seu aplicativo
 }));
 
 const mercadoPagoPublicKey = process.env.MERCADO_PAGO_SAMPLE_PUBLIC_KEY;
